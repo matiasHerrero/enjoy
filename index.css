@@ -129,8 +129,44 @@ nav ul li a {
   justify-content: space-between;
 }
 
+#presinter{
+  
+  background-image: url(img/fondoInternet.jpg);
+  background-size: cover;
+  height:  100vh;
+  
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#presinter h1{
+  color: #f80;
+  margin: 0;
+  font-size: 160px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
 
 
 
+.opciones {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
 
+.opc {
+  padding: 0 15px;
+}
 
+.opc img {
+  width: 450px;
+  
+}
+iframe{
+  height: 250px;
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
